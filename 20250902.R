@@ -36,7 +36,7 @@ end_color = colors[length(colors)]
 (p = ggplot() + theme_void() +
     geom_sf(data = frog_data_grid, aes(fill = n_obs_log), color = start_color, linewidth = 0.1) +
     scico::scale_fill_scico(palette = 'lajolla', direction = 1, begin = .2,
-                            name = 'Number of observations (log scale)         \n') +
+                            name = 'Number of observed      \nfrogs (log scale)\n') +
     theme(legend.position = 'bottom',
           legend.direction = 'horizontal',
           legend.ticks = element_blank(),
