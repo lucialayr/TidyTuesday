@@ -28,7 +28,7 @@ munros_added_point = munros_per_year %>%
   add_row(Year = 2050, n = 273, point_type = 'no data') %>%
   right_join(all_year, by = 'Year') %>%
   mutate(bottom = 270,
-         n = na.approx(n, x = Year, na.rm = FALSE) + rstable(n, beta = -1, alpha = 1.5, gamma = .1) ,
+         n = na.approx(n, x = Year, na.rm = FALSE) + rstable(n, beta = -1, alpha = 1.4, gamma = .1) ,
          top_treeline = 274 + rnorm(n, mean = 0, sd = .15) + sin(((Year)*.02)),
          bottom_snow = 280 + rnorm(n, mean = 0, sd = .15)) %>%
   mutate(bottom_snow = ifelse(bottom_snow < n, bottom_snow, n),
@@ -54,7 +54,7 @@ ggplot() + theme_void() +
   geom_ribbon(data = munros_added_point, aes(x = Year, ymax = n, ymin = bottom), fill = '#cbd6da') +
   geom_ribbon(data = munros_added_point, aes(x = Year, ymax = top_treeline, ymin = bottom), fill = '#8b9b74') +
   geom_ribbon(data = munros_added_point, aes(x = Year, ymax = n, ymin = bottom_snow), fill = '#f7ffff') +
-  geom_line(data = munros_added_point, aes(x = Year, y = n), color = 'black', linewidth = 0.5) +
+  geom_line(data = munros_added_point, aes(x = Year, y = n), color = 'black', linewidth = 0.4) +
   geom_line(data = munros_added_point, aes(x = Year, y = bottom_snow), color = 'black', linewidth = 0.25) +
   geom_line(data = munros_added_point, aes(x = Year, y = top_treeline), color = 'black', linewidth = 0.25) +
   geom_segment(data = annotations_left, aes(x = Year, y = ymin, xend = Year, yend = ymax)) +
@@ -67,4 +67,4 @@ ggplot() + theme_void() +
   scale_y_continuous(limits = c(270, 287), expand = c(0,0)) +
   theme(panel.background = element_rect(fill = 'ivory1', colour = NA))
 
-ggsave("250819.png", width = 8, height = 3, dpi = 600)
+ggsave("250819.png", width = 8, height = 5, dpi = 600)
