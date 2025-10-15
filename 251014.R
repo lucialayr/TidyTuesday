@@ -19,6 +19,7 @@ rail_data$Area = factor(rail_data$Area, levels = c("Northern America",
                                                     "Western Asia and Northern Africa", "Central Asia", "Southern Asia", 
                                                     "Eastern Asia"))
 ggplot() + theme_classic() +
+  ggtitle('Railroad tracks around the world') + 
   geom_line(data = rail_data, aes(x = Year_Start, y = Value, color = Area)) +
   geom_point(data = rail_data, aes(x = Year_Start, y = Value, color = Area), shape = 21, size = 2, fill = '#f4f1ee') +
   geom_point(data = rail_data, aes(x = Year_Start, y = Value, color = Area), shape = 20, size = 1.5) +
