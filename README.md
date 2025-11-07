@@ -2,8 +2,6 @@
 
 This repository contains my contributions to the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) project, where I explore data visualization techniques using R and the tidyverse.
 
-
-### Featured Visualizations
 <p align="center">
   <img src="viz/20250902.png" width="32%" alt="TidyTuesday visualization from September 2, 2025">
   <img src="viz/20250930.png" width="32%" alt="TidyTuesday visualization from September 30, 2025">
