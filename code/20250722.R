@@ -51,4 +51,4 @@ ggplot() + theme_void() +
     annotate(geom="text", x=-73.9, y=40.555, label="*Art descriptions that include the word 'mosaic' or 'tile' are categorized as mosaics.\nSource: MTA Arts & Design, NYC Open Data",
              color="black", size = 2, fontface = 'italic')
 
-ggsave("20250722.png", dpi = 800, height = 7, width = 4)
+ggsave("viz/20250722.png", dpi = 800, height = 7, width = 4)

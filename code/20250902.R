@@ -43,5 +43,5 @@ end_color = colors[length(colors)]
           text = element_text(family = 'Arial', color = colors[180]),
           plot.background = element_rect(fill = start_color, color = start_color)))
   
-ggsave('20250902.png', p, width = 6, height = 4, dpi = 300)
+ggsave('viz/20250902.png', p, width = 6, height = 4, dpi = 300)
 

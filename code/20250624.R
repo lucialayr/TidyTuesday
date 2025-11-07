@@ -39,6 +39,6 @@ ggplot() + theme_classic() +
         panel.background = element_rect(fill = '#f4f2f0', colour = NA),  
         plot.background = element_rect(fill = '#f4f2f0', colour = NA),
         strip.background = element_rect(fill = '#f4f2f0', color = NA))
-ggsave('20250624.png', width = 8, height = 6, dpi = 300)
+ggsave('viz/20250624.png', width = 8, height = 6, dpi = 300)
 
 

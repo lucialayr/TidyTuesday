@@ -65,4 +65,4 @@ radial_labels = data.frame(
 ggdraw(p) + 
   draw_image(logo_file, x = 0.5, y = 0.49, hjust = 0.5, vjust = 0.5, width = 0.5, scale = 1.3)
 
-ggsave("20250930.png")
+ggsave("viz/20250930.png")

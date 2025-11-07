@@ -48,4 +48,4 @@ ggplot() + theme_classic() +
         axis.text = element_text(color = 'grey20'),
         panel.grid.major.y = element_line(color = 'grey20', linewidth = 0.15))
 
-ggsave('251014.png', width = 8, height = 5, dpi = 300)        
+ggsave('viz/251014.png', width = 8, height = 5, dpi = 300)        

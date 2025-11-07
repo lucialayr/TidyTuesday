@@ -87,6 +87,6 @@ ggplot() +
         panel.background = element_rect(fill = '#f4f2f0', colour = NA),  
         plot.background = element_rect(fill = '#f4f2f0', colour = NA),
         strip.background = element_rect(fill = '#f4f2f0', color = NA))
-ggsave("250708.png", width = 10, height = 6, dpi = 600)
+ggsave("viz/250708.png", width = 10, height = 6, dpi = 600)
 
 

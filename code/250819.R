@@ -67,4 +67,4 @@ ggplot() + theme_void() +
   scale_y_continuous(limits = c(270, 287), expand = c(0,0)) +
   theme(panel.background = element_rect(fill = 'ivory1', colour = NA))
 
-ggsave("250819.png", width = 8, height = 5, dpi = 600)
+ggsave("viz/250819.png", width = 8, height = 5, dpi = 600)
