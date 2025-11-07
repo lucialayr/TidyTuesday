@@ -2,7 +2,6 @@
 
 This repository contains my weekly contributions to the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) project, where I explore data visualization techniques using R and the tidyverse.
 
----
 
 ### Featured Visualizations
 <p align="center">
@@ -13,15 +12,6 @@ This repository contains my weekly contributions to the [#TidyTuesday](https://g
 
 (*click to enlarge*)
 
----
-
 ### About TidyTuesday
 
 TidyTuesday is a weekly data project aimed at the R ecosystem. Each week, a new dataset is released, and participants create visualizations to explore and communicate insights from the data.
-
-**Connect with me:**
-- GitHub: [@lucialayr](https://github.com/lucialayr)
-
----
-
-*Last updated: November 2025*
