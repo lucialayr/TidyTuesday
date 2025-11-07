@@ -1,6 +1,6 @@
 ## TidyTuesday Contributions
 
-This repository contains my weekly contributions to the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) project, where I explore data visualization techniques using R and the tidyverse.
+This repository contains my contributions to the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) project, where I explore data visualization techniques using R and the tidyverse.
 
 
 ### Featured Visualizations
