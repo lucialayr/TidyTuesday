@@ -7,19 +7,19 @@ This repository contains my weekly contributions to the [#TidyTuesday](https://g
 
 ## Featured Visualizations
 
-<div align="center">
-
-<img src="20250930.png" width="700" alt="TidyTuesday visualization from September 30, 2025">
-
-<br><br>
-
-<img src="20250902.png" width="700" alt="TidyTuesday visualization from September 2, 2025">
-
-<br><br>
-
-<img src="250819.png" width="700" alt="TidyTuesday visualization from August 19, 2025">
-
-</div>
+<table>
+<tr>
+<td width="33%">
+<img src="20250902.png" width="100%" alt="TidyTuesday visualization from September 2, 2025">
+</td>
+<td width="33%">
+<img src="250819.png" width="100%" alt="TidyTuesday visualization from August 19, 2025">
+</td>
+<td width="33%">
+<img src="20250930.png" width="100%" alt="TidyTuesday visualization from September 30, 2025">
+</td>
+</tr>
+</table>
 
 ---
 
