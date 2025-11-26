@@ -1,6 +1,6 @@
 ## TidyTuesday Contributions
 
-This repository contains my contributions to the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) project, where I explore data visualization techniques using R and the tidyverse.
+This repository contains my contributions to the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) project, where I explore data visualization techniques using R
 
 <p align="center">
   <img src="viz/20250902.png" width="32%" alt="TidyTuesday visualization from September 2, 2025">
@@ -12,4 +12,4 @@ This repository contains my contributions to the [#TidyTuesday](https://github.c
 
 ### About TidyTuesday
 
-TidyTuesday is a weekly data project aimed at the R ecosystem. Each week, a new dataset is released, and participants create visualizations to explore and communicate insights from the data.
+TidyTuesday is a weekly data project created by the R community. Each week, a new dataset is released, and participants create visualizations to explore and communicate insights from the data.
