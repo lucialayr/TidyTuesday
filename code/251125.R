@@ -3,10 +3,11 @@ setwd("~/Desktop/TidyTuesday")
 library(tidyverse)
 library(rnaturalearth)
 library(rnaturalearthdata)
+library(scico)
 
 countries = rnaturalearth::ne_countries(scale = "medium", returnclass = "sf") %>%
-  dplyr::select(iso_a3_eh) %>%
-  rename(iso3c = iso_a3_eh)
+  dplyr::select(gu_a3) %>%
+  rename(iso3c = gu_a3)
 
 tuesdata = tidytuesdayR::tt_load('2025-11-25')
 spi_indicators = tuesdata$spi_indicators %>%
